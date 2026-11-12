@@ -9,7 +9,7 @@ description: '写一些想写的'
 keywords:
 author: zibren
 language: zh-CN
-timezone: 'Asian/Shanghai'
+timezone: 'Asia/Shanghai'
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
@@ -40,7 +40,10 @@ external_link:
   exclude: ''
 filename_case: 0
 render_drafts: false
-post_asset_folder: false
+post_asset_folder: true
+marked:
+    prependRoot: true
+    postAsset: true
 relative_link: false
 future: true
 syntax_highlighter: highlight.js
@@ -102,6 +105,6 @@ theme: butterfly
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: git
-  repo: https://gihub.com/zibren/zibren.github.io.git
+  repo: https://github.com/zibren/zibren.github.io.git
   branch: main
   massege: "update :{{(YYYY-MM-DD HH:mm:ss)}}"

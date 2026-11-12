@@ -9,4 +9,6 @@ aside:
 # _config.butterfly.yml
 avatar:
   img: https://github.com/zibren.png  # 将这里替换为你的GitHub头像链接
-  effect: false  # 可选，开启头像旋转效果 # 修改这里的链接
+  effect: false
+# 有些主题可能是 timeZone（注意大小写）
+timezone: Asia/Shanghai 
